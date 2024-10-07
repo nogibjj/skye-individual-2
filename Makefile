@@ -1,25 +1,18 @@
 install:
-	pip install --upgrade pip &&\
-		pip install -r requirements.txt
+	python3 -m venv venv
+	venv/bin/pip3 install --upgrade pip &&\
+		venv/bin/pip3  install -r requirements.txt
 
-test:
-	python -m pytest -vv --cov=main --cov=mylib test_*.py
-
-format:	
-	black *.py 
+format:
+	venv/bin/black mylib/*.py
 
 lint:
-	#disable comment to test speed
-	#pylint --disable=R,C --ignore-patterns=test_.*?py *.py mylib/*.py
-	#ruff linting is 10-100X faster than pylint
-	ruff check *.py mylib/*.py
+	venv/bin/ruff check mylib/*.py
 
 container-lint:
-	docker run --rm -i hadolint/hadolint < Dockerfile
+	venv/bin/docker run --rm -i hadolint/hadolint < Dockerfile
 
-refactor: format lint
-
-deploy:
-	#deploy goes here
+run :
+	venv/bin/python3 main.py
 		
-all: install lint test format deploy
+all: install lint format run
