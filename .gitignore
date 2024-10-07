@@ -4,7 +4,6 @@ summarizeApp
 test_trainer/
 
 #ignore pytorch artifacts
-data
 model.pth
 
 # Byte-compiled / optimized / DLL files
@@ -65,7 +64,6 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
