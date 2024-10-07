@@ -2,8 +2,7 @@
 # Skye Assignment 5 - SQL Database Operations
 This repository contains a Python script that connects to a SQL database, performs CRUD (Create, Read, Update, Delete) operations, and executes two different SQL queries. Additionally, the project includes a CI/CD pipeline that tests each operation, verifying the correct execution of database operations.
 
-## Logging Details
-
+## Logging Details [link](https://github.com/nogibjj/skye-assignment-5/blob/main/log/database_log.log).
 - **Log Location**: All logs are saved in the `log` folder. 
 - **Log Level**: Database operations are logged at the _debug level_ for detailed traceability.
 - **Log Format**: Includes timestamps, log levels, and messages.
