@@ -47,6 +47,9 @@ ORDER BY l.latest_transfer_date DESC;
 4. Ordering:
 - The results are ordered by latest_transfer_date in descending order, showing the federations with the most recent transfers at the top.
 
+## Initial Data
+![insert_data.png](insert_data.png)
+## Query Result
 ![result_of_the_query](query_result.png)
 
 ### Final Output

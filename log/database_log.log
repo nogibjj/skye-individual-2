@@ -219,3 +219,423 @@
 23:43:52:647 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
 23:43:52:649 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
 23:43:52:649 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:43:53:803 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:43:53:864 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:43:53:916 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:43:55:21 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:43:55:23 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:43:55:24 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:43:56:171 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:43:56:173 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:43:56:174 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:43:57:462 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:43:57:464 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:43:57:465 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:43:58:586 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:43:58:587 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:43:58:588 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:43:59:671 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:43:59:672 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:43:59:673 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:00:845 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:00:848 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:00:849 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:02:86 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:02:92 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:02:92 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:03:231 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:03:235 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:03:236 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:04:378 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:04:382 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:04:382 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:05:582 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:05:585 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:05:586 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:06:740 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:06:744 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:06:744 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:08:4 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:08:8 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:08:9 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:09:179 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:09:184 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:09:185 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:10:376 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:10:384 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:10:385 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:11:754 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:11:759 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:11:760 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:12:929 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:12:933 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:12:934 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:14:104 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:14:109 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:14:109 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:15:260 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:15:264 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:15:265 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:16:447 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:16:452 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:16:452 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:17:588 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:17:601 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:17:609 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:18:767 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:18:787 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:18:793 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:19:967 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:19:973 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:19:973 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:21:147 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:21:153 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:21:153 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:22:423 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:22:429 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:22:429 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:23:616 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:23:621 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:23:622 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:24:804 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:24:809 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:24:809 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:25:973 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:25:980 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:25:980 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:27:155 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:27:159 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:27:159 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:28:429 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:28:435 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:28:436 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:29:811 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:29:818 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:29:818 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:30:946 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:30:951 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:30:951 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:32:221 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:32:228 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:32:229 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:33:428 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:33:433 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:33:434 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:34:705 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:34:709 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:34:710 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:35:901 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:35:906 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:35:907 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:37:133 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:37:138 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:37:138 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:38:285 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:38:289 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:38:291 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:39:395 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:39:401 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:39:401 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:40:551 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:40:555 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:40:556 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:41:705 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:41:710 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:41:711 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:42:884 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:42:891 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:42:893 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:44:116 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:44:123 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:44:123 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:45:284 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:45:288 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:45:289 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:46:504 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:46:508 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:46:509 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:47:739 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:47:744 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:47:744 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:49:53 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:49:58 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:49:58 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:50:160 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:50:166 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:50:166 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:51:333 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:51:338 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:51:339 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:52:491 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:52:496 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:52:496 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:53:625 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:53:629 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:53:630 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:54:851 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:54:856 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:54:857 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:55:988 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:55:993 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:55:993 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:57:148 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:57:155 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:57:155 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:58:325 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:58:329 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:58:329 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:44:59:445 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:44:59:450 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:44:59:451 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:00:608 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:00:612 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:00:612 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:01:785 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:01:789 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:01:789 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:02:971 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:02:975 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:02:976 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:04:190 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:04:196 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:04:197 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:05:286 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:05:291 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:05:291 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:06:440 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:06:444 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:06:445 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:07:601 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:07:607 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:07:608 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:08:709 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:08:712 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:08:713 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:09:811 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:09:816 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:09:816 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:10:923 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:10:927 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:10:928 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:11:993 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:11:996 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:11:997 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:13:189 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:13:191 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:13:191 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:14:548 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:14:551 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:14:552 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:15:761 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:15:765 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:15:774 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:16:938 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:16:941 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:16:942 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:18:132 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:18:136 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:18:137 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:19:258 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:19:264 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:19:265 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:20:446 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:20:453 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:20:454 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:21:553 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:21:557 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:21:560 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:22:678 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:22:679 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:22:680 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:23:878 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:23:882 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:23:883 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:25:87 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:25:89 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:25:89 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:26:318 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:26:323 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:26:324 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:27:642 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:27:646 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:27:647 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:28:796 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:28:801 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:28:803 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:30:56 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:30:61 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:30:62 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:31:240 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:31:244 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:31:245 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:32:447 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:32:451 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:32:453 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:33:569 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:33:574 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:33:575 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:34:787 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:34:793 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:34:794 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:35:999 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:36:5 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:36:5 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:37:249 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:37:251 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:37:251 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:38:455 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:38:491 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:38:529 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:39:730 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:39:736 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:39:738 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:40:947 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:40:949 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:40:950 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:42:535 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:42:543 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:42:544 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:43:736 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:43:738 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:43:739 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:44:970 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:44:976 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:44:977 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:46:83 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:46:85 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:46:85 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:47:335 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:47:341 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:47:343 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:48:526 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:48:530 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:48:531 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:49:672 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:49:674 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:49:674 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:50:867 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:50:869 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:50:869 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:52:105 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:52:163 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:52:178 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:53:347 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:53:350 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:53:351 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:54:492 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:54:497 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:54:497 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:55:688 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:55:690 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:55:691 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:56:822 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:56:825 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:56:826 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:57:977 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:57:978 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:57:979 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:45:59:125 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:45:59:127 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:45:59:127 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:00:295 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:00:296 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:00:296 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:01:492 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:01:498 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:01:498 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:02:653 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:02:654 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:02:655 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:03:893 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:03:894 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:03:894 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:05:71 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:05:73 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:05:74 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:06:258 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:06:264 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:06:267 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:07:377 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:07:383 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:07:384 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:08:635 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:08:637 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:08:638 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:09:783 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:09:786 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:09:787 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:10:906 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:10:909 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:10:909 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:12:75 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:12:80 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:12:81 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:13:258 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:13:259 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:13:259 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:14:415 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:14:417 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:14:418 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:15:622 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:15:625 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:15:625 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:16:774 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:16:777 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:16:777 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:17:941 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:17:942 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:17:943 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:19:417 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:19:421 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:19:422 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:20:573 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:20:575 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:20:576 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:21:682 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:21:691 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:21:691 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:22:866 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:22:868 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:22:869 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:24:221 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:24:223 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:24:224 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:26:255 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:26:260 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:26:261 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:27:366 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:27:368 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:27:369 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:28:460 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:28:467 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:28:469 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:29:606 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:29:608 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:29:608 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:30:733 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:30:735 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:30:735 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:31:877 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:31:879 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:31:879 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:33:42 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:33:46 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:33:46 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:34:364 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:34:368 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:34:370 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:35:665 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:35:668 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:35:669 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:36:923 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:36:930 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:36:931 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:38:32 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:38:34 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:38:34 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:39:157 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:39:160 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:39:160 DEBUG Sending request: ExecuteStatement(<REDACTED>)
+23:46:40:314 DEBUG https://dbc-b24a93ee-6754.cloud.databricks.com:443 "POST /sql/1.0/warehouses/a158784826bb7569 HTTP/1.1" 200 None
+23:46:40:316 DEBUG Received response: TExecuteStatementResp(<REDACTED>)
+23:46:40:316 DEBUG Sending request: ExecuteStatement(<REDACTED>)
