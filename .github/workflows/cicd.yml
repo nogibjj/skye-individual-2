@@ -9,6 +9,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      HOST: ${{ secrets.HOST }}
+      HTTP_PATH: ${{ secrets.HTTP_PATH }}
+      ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
     steps:
       - uses: actions/checkout@v3
       - name: install packages
@@ -17,9 +21,3 @@ jobs:
         run: make lint
       - name: format
         run: make format
-      - name: run
-        env:
-          HOST: ${{ secrets.HOST }}
-          HTTP_PATH: ${{ secrets.HTTP_PATH }}
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        run: make run
