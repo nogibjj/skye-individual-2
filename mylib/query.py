@@ -30,21 +30,14 @@ query = """
 def query():
     logger = logging.getLogger("urbanGUI")
     hostname, access_token, http_path = get_env_variables()
-    try:
-        with sql.connect(
-            server_hostname=hostname,
-            http_path=http_path,
-            access_token=access_token,
-        ) as connection:
-            cursor = connection.cursor()
-            cursor.execute(query)
-            result = cursor.fetchall()
-            cursor.close()
-            logger.info("Query executed successfully. Printing result...")
-            logger.debug(result)
-    except Exception as e:
-        handle_error(e)
-    finally:
-        if connection:
-            connection.close()
-            logger.info("Connection closed.")
+    with sql.connect(
+        server_hostname=hostname,
+        http_path=http_path,
+        access_token=access_token,
+    ) as connection:
+        cursor = connection.cursor()
+        cursor.execute(query)
+        result = cursor.fetchall()
+        cursor.close()
+        logger.info("Query executed successfully. Printing result...")
+        logger.debug(result)

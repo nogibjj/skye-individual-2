@@ -18,4 +18,8 @@ jobs:
       - name: format
         run: make format
       - name: run
+        env:
+          HOST: ${{ secrets.HOST }}
+          HTTP_PATH: ${{ secrets.HTTP_PATH }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: make run
