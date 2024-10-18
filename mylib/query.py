@@ -2,7 +2,7 @@
 
 import logging
 from databricks import sql
-from .utils import get_env_variables, handle_error
+from .utils import get_env_variables
 
 DB_name = "transfer"
 DB = DB_name + ".db"
