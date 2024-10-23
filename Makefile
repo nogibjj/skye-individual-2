@@ -14,5 +14,15 @@ container-lint:
 
 run :
 	venv/bin/python3 main.py
-		
-all: install lint format run
+
+package :
+	venv/bin/python3 setup.py sdist
+	venv/bin/pip3 install ./dist/chess_transfer-1.0.0.tar.gz
+
+run :
+	venv/bin/python3 main.py extract
+	venv/bin/python3 main.py transform
+	venv/bin/python3 main.py load
+	venv/bin/python3 main.py query
+
+all: install lint format package run

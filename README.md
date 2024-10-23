@@ -1,6 +1,44 @@
 [![CI](https://github.com/nogibjj/skye-assignment-6/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/skye-assignment-6/actions/workflows/cicd.yml)
 # Skye Assignment 5 - SQL Database Operations
-This repository contains a Python script that connects to a SQL database, performs CRUD (Create, Read, Update, Delete) operations, and executes two different SQL queries. Additionally, the project includes a CI/CD pipeline that tests each operation, verifying the correct execution of database operations.
+This repository contains a Python package named chess_transfer that provides functionality for managing chess player transfer data between federations. The package allows users to perform CRUD (Create, Read, Update, Delete) operations on a SQL database, retrieve the latest transfer dates, and count the total number of transfers for each federation.
+
+# Package Details
+The chess_transfer package is set up using setuptools and includes dependencies such as databricks-sql-connector, pandas, and python-dotenv for connecting to the database and performing data operations. The package structure allows for easy installation and integration into projects involving chess player transfer data.
+### Setup
+To package and install the chess_transfer package, follow these steps:
+1. Create a source distribution:
+```bash
+venv/bin/python3 setup.py sdist
+```
+
+2. Install the package:
+```bash
+venv/bin/pip3 install ./dist/chess_transfer-1.0.0.tar.gz
+```
+These commands will create a source distribution and install it into the virtual environment.
+
+### Running the Package
+The package includes a command-line interface for executing different data processing steps. You can perform the following operations:
+
+1. Extract data:
+```bash
+venv/bin/python3 main.py extract
+```
+2. Transform data:
+```bash
+venv/bin/python3 main.py transform
+```
+
+3. Load data:
+```bash
+venv/bin/python3 main.py load
+```
+
+4. Query data:
+```bash
+venv/bin/python3 main.py query```
+
+These commands run the respective data processing steps, allowing for modular execution of the data pipeline.
 
 # SQL Query Explanation
 The SQL query provided demonstrates the use of joins, aggregation, and sorting. It operates on a single table, `transfer`, which contains information about player transfers between federations. Below is a breakdown of the query and its purpose.
