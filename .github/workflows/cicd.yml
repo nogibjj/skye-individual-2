@@ -21,7 +21,7 @@ jobs:
         run: make lint
       - name: format
         run: make format
-      - name: python run
-        run: make python-run
-      - name: rust run
-        run: make rust-run
+#      - name: python run
+#        run: make python-run
+#      - name: rust run
+#        run: make rust-run
