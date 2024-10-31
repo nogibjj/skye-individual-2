@@ -1,6 +1,6 @@
 use rusqlite::{Connection, Result};
-use structopt::StructOpt;
 use std::error::Error;
+use structopt::StructOpt;
 
 use crate::query::{create_transfer, delete_transfer, read_latest_transfer, update_transfer};
 
@@ -24,14 +24,9 @@ enum Command {
     /// Read the latest transfer record
     ReadLatest,
     /// Update the URL of an existing transfer record by ID
-    Update {
-        id: i32,
-        new_url: String,
-    },
+    Update { id: i32, new_url: String },
     /// Delete a transfer record by ID
-    Delete {
-        id: i32,
-    },
+    Delete { id: i32 },
 }
 
 const DB_NAME: &str = "transfer.db";
@@ -50,7 +45,14 @@ pub fn cli() -> Result<(), Box<dyn Error>> {
             federation,
             former_fed,
             transfer_date,
-        } => create_transfer(&connection, &url, player_id, &federation, &former_fed, &transfer_date)?,
+        } => create_transfer(
+            &connection,
+            &url,
+            player_id,
+            &federation,
+            &former_fed,
+            &transfer_date,
+        )?,
 
         Command::ReadLatest => {
             if let Some(id) = read_latest_transfer(&connection)? {

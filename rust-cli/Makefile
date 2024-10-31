@@ -7,7 +7,7 @@ lint:
 
 run :
 	cargo build
-	cargo run
+	cargo run read-latest
 
 check:
 	cargo check
@@ -15,7 +15,7 @@ check:
 release:
 	cargo build --release
 
-all: check build format lint test
+all: check format lint test
 
 test:
 	cargo test

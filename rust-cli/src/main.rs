@@ -1,7 +1,7 @@
+mod cli;
 mod extract;
 mod query;
 mod transform_load;
-mod cli;
 
 use cli::cli;
 use rusqlite::{Connection, Result};

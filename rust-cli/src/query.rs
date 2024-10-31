@@ -1,7 +1,14 @@
 use rusqlite::{params, Connection, Result};
 
 // Create a new record (Create)
-pub fn create_transfer(connection: &Connection, url: &str, player_id: i32, federation: &str, former_fed: &str, transfer_date: &str) -> Result<()> {
+pub fn create_transfer(
+    connection: &Connection,
+    url: &str,
+    player_id: i32,
+    federation: &str,
+    former_fed: &str,
+    transfer_date: &str,
+) -> Result<()> {
     connection.execute(
         "INSERT INTO transfer (url, player_id, federation, former_fed, transfer_date)
          VALUES (?, ?, ?, ?, ?)",
@@ -17,7 +24,7 @@ pub fn read_latest_transfer(connection: &Connection) -> Result<Option<i32>> {
         "SELECT id, url, player_id, federation, former_fed, transfer_date
          FROM transfer
          ORDER BY transfer_date DESC
-         LIMIT 1"
+         LIMIT 1",
     )?;
 
     let mut rows = stmt.query([])?;
