@@ -1,22 +1,3 @@
-# Performance Comparison of Rust and Python Scripts
- This project is designed to compare the runtime and memory usage of Python and Rust implementations of a task. The project includes: 
- 1. A Python script (src) for the task.
- 2. A Rust executable (mylib). 
- 3. A comparison script (compare.sh) that runs both implementations, measuring and reporting runtime and memory usage.
- 
------------------------------------------
-# Perfomance Report for python_script
-Max memory usage by python_script:   1120 KB
-Processing time for python_script:0.78
------------------------------------------
- 
- 
------------------------------------------
-# Perfomance Report for rust_executable
-Max memory usage by rust_executable:   1120 KB
-Processing time for rust_executable:1.49
------------------------------------------
- 
 # Getting Started
 Clone the repository and navigate into the project directory.
 Ensure all dependencies are installed (see Requirements).

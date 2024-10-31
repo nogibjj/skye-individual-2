@@ -1,0 +1,14 @@
+[package]
+name = "untitled1"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dotenv = "0.15"
+log = "0.4"
+env_logger = "0.10"
+sqlx = { version = "0.6", features = ["postgres", "runtime-tokio-native-tls"] }
+csv = "1.1"
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.11", features = ["blocking"] }
+rusqlite = "0.30.0"
