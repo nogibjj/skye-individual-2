@@ -2,6 +2,8 @@ use rusqlite::{Connection, Result};
 use std::error::Error;
 use structopt::StructOpt;
 
+use crate::extract::extract;
+use crate::transform_load::load;
 use crate::query::{create_transfer, delete_transfer, read_latest_transfer, update_transfer};
 
 /// CLI program for managing transfer records
@@ -13,20 +15,34 @@ struct Cli {
 
 #[derive(StructOpt)]
 enum Command {
+    Extract {},
+    /// Load data from a CSV file into the database
+    Load {},
     /// Create a new transfer record
     Create {
+        #[structopt(long)]
         url: String,
+        #[structopt(long)]
         player_id: i32,
+        #[structopt(long)]
         federation: String,
+        #[structopt(long)]
         former_fed: String,
+        #[structopt(long)]
         transfer_date: String,
     },
     /// Read the latest transfer record
     ReadLatest,
     /// Update the URL of an existing transfer record by ID
-    Update { id: i32, new_url: String },
+    Update {
+        #[structopt(long)]
+        id: i32,
+        #[structopt(long)]
+        new_url: String },
     /// Delete a transfer record by ID
-    Delete { id: i32 },
+    Delete {
+        #[structopt(long)]
+        id: i32 },
 }
 
 const DB_NAME: &str = "transfer.db";
@@ -39,6 +55,14 @@ pub fn cli() -> Result<(), Box<dyn Error>> {
 
     // Execute the command based on user input
     match args.command {
+        Command::Extract {} => {
+            extract()?;
+            println!("Data extracted");
+        }
+        Command::Load {} => {
+            load(&connection)?;
+            println!("Data loaded into the database");
+        }
         Command::Create {
             url,
             player_id,

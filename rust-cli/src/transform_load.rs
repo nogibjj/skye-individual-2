@@ -1,7 +1,10 @@
 use csv::ReaderBuilder;
 use rusqlite::{Connection, Result};
 use std::error::Error;
-pub fn load(connection: &Connection, dataset: &str) -> Result<(), Box<dyn Error>> {
+
+const DATASET: &str = "../data/transfer.csv";
+
+pub fn load(connection: &Connection) -> Result<(), Box<dyn Error>> {
     // Connect to the database
 
     // Drop and recreate the `transfer` table
@@ -20,7 +23,7 @@ pub fn load(connection: &Connection, dataset: &str) -> Result<(), Box<dyn Error>
     println!("Creating table: success");
 
     // Initialize CSV reader with specified delimiter and header options
-    let mut reader = ReaderBuilder::new().from_path(dataset)?;
+    let mut reader = ReaderBuilder::new().from_path(DATASET)?;
 
     // Prepare the SQL statement for inserting data
     let mut stmt = connection.prepare(

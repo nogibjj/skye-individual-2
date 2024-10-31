@@ -23,7 +23,7 @@ pub fn read_latest_transfer(connection: &Connection) -> Result<Option<i32>> {
     let mut stmt = connection.prepare(
         "SELECT id, url, player_id, federation, former_fed, transfer_date
          FROM transfer
-         ORDER BY transfer_date DESC
+         ORDER BY id DESC
          LIMIT 1",
     )?;
 

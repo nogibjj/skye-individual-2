@@ -13,7 +13,7 @@ jobs:
       HOST: ${{ secrets.HOST }}
       HTTP_PATH: ${{ secrets.HTTP_PATH }}
       ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-      WORKING_DIR: rust_cli
+      WORKING_DIR: rust-cli
     steps:
       - uses: actions/checkout@v3
       - name: install packages
