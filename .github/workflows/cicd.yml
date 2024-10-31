@@ -13,15 +13,30 @@ jobs:
       HOST: ${{ secrets.HOST }}
       HTTP_PATH: ${{ secrets.HTTP_PATH }}
       ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      WORKING_DIR: rust_cli
     steps:
       - uses: actions/checkout@v3
       - name: install packages
-        run: make install
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          override: true
       - name: lint
         run: make lint
+        working-directory: ${{ env.WORKING_DIR }}
       - name: format
         run: make format
-#      - name: python run
-#        run: make python-run
-#      - name: rust run
-#        run: make rust-run
+        working-directory: ${{ env.WORKING_DIR }}
+      - name: check
+        run: make check
+        working-directory: ${{ env.WORKING_DIR }}
+      - name: test
+        run: make test
+        working-directory: ${{ env.WORKING_DIR }}
+      - name: Upload Binary Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-binary
+          path: ${{ env.WORKING_DIR }}/target/release/sqlite
+
+

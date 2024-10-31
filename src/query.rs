@@ -1,15 +1,7 @@
 use rusqlite::{params, Connection, Result};
-use std::error::Error;
 
-// Insert a new record (Create)
-pub fn create_transfer(
-    connection: &Connection,
-    url: &str,
-    player_id: i32,
-    federation: &str,
-    former_fed: &str,
-    transfer_date: &str,
-) -> Result<(), Box<dyn Error>> {
+// Create a new record (Create)
+pub fn create_transfer(connection: &Connection, url: &str, player_id: i32, federation: &str, former_fed: &str, transfer_date: &str) -> Result<()> {
     connection.execute(
         "INSERT INTO transfer (url, player_id, federation, former_fed, transfer_date)
          VALUES (?, ?, ?, ?, ?)",
@@ -19,12 +11,13 @@ pub fn create_transfer(
     Ok(())
 }
 
-pub fn read_latest_transfer(connection: &Connection) -> Result<Option<i32>, Box<dyn Error>> {
+// Read the latest record and return its ID (Read latest)
+pub fn read_latest_transfer(connection: &Connection) -> Result<Option<i32>> {
     let mut stmt = connection.prepare(
         "SELECT id, url, player_id, federation, former_fed, transfer_date
          FROM transfer
-         ORDER BY id DESC
-         LIMIT 1",
+         ORDER BY transfer_date DESC
+         LIMIT 1"
     )?;
 
     let mut rows = stmt.query([])?;
@@ -42,21 +35,19 @@ pub fn read_latest_transfer(connection: &Connection) -> Result<Option<i32>, Box<
             id, url, player_id, federation, former_fed, transfer_date
         );
 
-        Ok(Some(id)) // Return the ID of the latest record
+        Ok(Some(id))
     } else {
         println!("No records found.");
-        Ok(None) // Return None if there are no records
+        Ok(None)
     }
 }
 
 // Update a specific record (Update)
-pub fn update_transfer(
-    connection: &Connection,
-    id: i32,
-    new_url: &str,
-) -> Result<(), Box<dyn Error>> {
+pub fn update_transfer(connection: &Connection, id: i32, new_url: &str) -> Result<()> {
     connection.execute(
-        "UPDATE transfer SET url = ?1 WHERE id = ?2",
+        "UPDATE transfer
+         SET url = ?1
+         WHERE id = ?2",
         params![new_url, id],
     )?;
     println!("Record updated successfully");
@@ -64,8 +55,12 @@ pub fn update_transfer(
 }
 
 // Delete a specific record (Delete)
-pub fn delete_transfer(connection: &Connection, id: i32) -> Result<(), Box<dyn Error>> {
-    connection.execute("DELETE FROM transfer WHERE id = ?1", params![id])?;
+pub fn delete_transfer(connection: &Connection, id: i32) -> Result<()> {
+    connection.execute(
+        "DELETE FROM transfer
+         WHERE id = ?1",
+        params![id],
+    )?;
     println!("Record deleted successfully");
     Ok(())
 }
