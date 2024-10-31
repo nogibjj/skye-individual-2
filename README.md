@@ -108,4 +108,4 @@ GitHub Copilot was used to assist in writing boilerplate code, particularly for 
 An AI language model (LLM) was used extensively to refine complex logic, troubleshoot issues, and provide Rust-specific best practices, such as error handling and lifetime management. The LLM guidance enhanced the program's reliability and modularity by suggesting a clear structure for the ETL and CRUD modules.
 
 ## Artifact
-artifact can be downloaded here
+artifact can be downloaded here [Download v01.zip](https://github.com/nogibjj/skye-individual-2/archive/refs/tags/v01.zip)
