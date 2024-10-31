@@ -1,3 +1,4 @@
+[![CI](https://github.com/nogibjj/skye-assignment-8/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/skye-assignment-8/actions/workflows/cicd.yml)
 # Performance Comparison of Rust and Python Scripts
  This project is designed to compare the runtime and memory usage of Python and Rust implementations of a task. The project includes: 
  1. A Python script (src) for the task.
@@ -7,14 +8,14 @@
 -----------------------------------------
 # Perfomance Report for python_script
 Max memory usage by python_script:   1120 KB
-Processing time for python_script:0.78
+Processing time for python_script:0.24
 -----------------------------------------
  
  
 -----------------------------------------
 # Perfomance Report for rust_executable
 Max memory usage by rust_executable:   1120 KB
-Processing time for rust_executable:1.49
+Processing time for rust_executable:1.28
 -----------------------------------------
  
 # Getting Started
